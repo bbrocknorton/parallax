@@ -6,16 +6,22 @@ body {
 
 .container {
   max-width: 100%;
-  margin: 0 auto;
   text-align: center;
 }
 
 span {
-  font-size: 50px;
+  font-size: 30px;
 }
 
-button {
-  text-align: center;
+input[type="submit"]{
+  background: #FFFFFF;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+  background: red;
+  border: 1px solid #000;
 }
 
 .twitter {
@@ -59,6 +65,7 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 10px 0;
+  margin: 20px;
 }
 section.module.parallax {
   height: 400px;
@@ -70,15 +77,17 @@ section.module.parallax {
 }
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
+  font-size: 35px;
   line-height: 400px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-family: 'LeagueGothicRegular', arial, helvetica;
+  margin: 0;
 }
 section.module.parallax-1 {
+<<<<<<< HEAD
   background-image: url("C:/Users/bnorton/Desktop/parallax/sunrise.jpg");
 }
 section.module.parallax-2 {
@@ -87,6 +96,24 @@ section.module.parallax-2 {
 }
 section.module.parallax-3 {
   background-image: url("C:/Users/bnorton/Desktop/parallax/bigred.jpg");
+=======
+  background-image: url("/imgs/nature.jpg");
+/*images are saved on my personal site in this folder path*/
+}
+section.module.parallax-2 {
+  background-image: url("/imgs/ocean.jpg");
+/*images are saved on my personal site in this folder path*/
+}
+section.module.parallax-3 {
+  background-image: url("/imgs/bigred.jpg");
+/*images are saved on my personal site in this folder path*/
+}
+
+@media all {
+  section.module.parallax h1 {
+    font-size: 30px;
+  }
+>>>>>>> origin/master
 }
 
 @media all and (min-width: 600px) {
@@ -97,11 +124,11 @@ section.module.parallax-3 {
     font-size: 20px;
   }
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 70px;
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 100px;
   }
 }
