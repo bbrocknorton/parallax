@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+.social {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
 span {
   font-size: 30px;
 }
@@ -16,7 +20,8 @@ span {
 input[type="submit"]{
   background: #FFFFFF;
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 5px;   
+  font-size: 25px;
 }
 
 input[type="submit"]:hover{
@@ -60,7 +65,7 @@ section.module p {
   font-family: 'LeagueGothicRegular', arial, helvetica;
 }
 section.module p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 12px;
   font-family: 'LeagueGothicRegular', arial, helvetica;
 }
 section.module.content {
