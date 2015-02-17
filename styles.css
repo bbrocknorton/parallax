@@ -79,14 +79,14 @@ section.module.parallax h1 {
   font-family: 'LeagueGothicRegular', arial, helvetica;
 }
 section.module.parallax-1 {
-  background-image: url("http://pictdesktop.com/wp-content/uploads/2015/01/Photoshoot-high-resolution-wallpaper-free-with-sunrise-photo.jpg");
+  background-image: url("C:/Users/bnorton/Desktop/parallax/sunrise.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("http://static.wallpedes.com/wallpaper/download/download-picstopin-aurora-space-high-resolution-wallpaper-wallpaper-space-high-resolution-download-picstopin-aurora.jpg");
+  background-image: url("C:/Users/bnorton/Desktop/parallax/ocean.jpg");
 
 }
 section.module.parallax-3 {
-  background-image: url("http://freedwallpaper.com/wp-content/uploads/2014/08/Wheat-field-sunset-high-definition-wallpapers-free-download-outstanding-hd-wallpapers-of-sunset-field.jpg");
+  background-image: url("C:/Users/bnorton/Desktop/parallax/bigred.jpg");
 }
 
 @media all and (min-width: 600px) {
